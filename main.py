@@ -75,9 +75,9 @@ def main():
     st.title('Crop Recommendation Web app')
     
     
-    N = st.slider('Nitrogen', 0, 140)
-    P = st.slider('Phosphorus', 5, 145)
-    K = st.slider('Potassium', 5, 205)
+    N = st.slider('Nitrogen', 0, 100)
+    P = st.slider('Phosphorus', 5, 105)
+    K = st.slider('Potassium', 5, 120)
     temperature = st.slider('Temperature', 8.83, 44.00)
     humidity = st.slider('Humidity', 14.00, 100.00)
     pH = st.slider('pH', 3.50, 10.00)
