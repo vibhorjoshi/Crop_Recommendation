@@ -5,7 +5,6 @@ Spyder Editor
 This is a temporary script file.
 """
 
-
 import pickle
 import numpy as np
 import scipy.sparse.linalg
